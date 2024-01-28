@@ -1,0 +1,157 @@
+*{
+   margin:0;
+   padding: 0;
+}
+body{
+    
+        background: linear-gradient(90deg in oklab, rgb(151, 151, 236), rgba(218, 90, 90, 0.842));
+    
+      
+}
+
+.navi{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:10px;
+    text-decoration:none;
+    
+
+}
+header{
+    width:100%;
+    height: 40px;
+    border-radius:5px;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    background-color: black;
+    border-color: burlywood;
+    position: fixed; 
+     top: 0;
+    
+}
+nav a{
+   
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      color: white;
+       letter-spacing:.5;
+       font-size :15px;
+       text-decoration: none;
+}
+nav a:hover{
+    color:rgb(231, 171, 122);
+
+}
+article{
+    display: flex;
+}
+.intro{
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    transition:1s; 
+    
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size :30px;
+
+}
+.intro:hover{
+    border-top: blue;
+    box-shadow: 4px 4px 20px black;
+}
+.post{
+    /* position: relative; */
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 15, 106);
+    
+}
+.line{
+    font-size:20px;
+    text-align: center;
+    margin:10px;
+}
+img{
+   height:300px;
+   width: 300px;
+   
+   margin-top: 150px;
+   margin-left: 240px;
+  
+   border: 2px solid black;
+   border-radius:50% 50% 50% 50%;
+    box-shadow: 2px 2px 5px black;
+    transition: 1s;
+    
+  
+
+
+}
+img:hover{
+    box-shadow: 4px 4px 10px black;
+}
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    
+    background-color:rgb(13, 13, 14);
+    border-radius: 10px;
+   
+    border: 2px solid blueviolet;
+ padding-top: 20px;
+
+}
+.icon-bar{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+
+}
+
+.fa-linkedin{
+        color:rgba(248, 248, 250, 0.855);
+        font-size: 30px;
+}
+.fa-square-envelope{
+    color:rgba(245, 245, 248, 0.855);
+    font-size: 30px;
+}
+.fa-instagram{
+    color:rgba(245, 245, 248, 0.855);
+    font-size: 30px;
+}
+.fa-github{
+    color:rgba(245, 245, 248, 0.855);
+    font-size: 30px;
+}
+.skills-section{
+     font-size: 30px;
+     font-weight:500 ;
+     text-align: center;
+     
+}
+.m{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 250px;
+}
+.e{
+font-size: 40px;
+text-align: center;
+    text-decoration: underline;
+    margin-top: 250px;
+}
+.Experience{
+    font-size: 30px;
+    font-weight:500 ;
+    text-align: center;
+    margin-bottom: 250px;
+   
+}
